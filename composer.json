@@ -1,0 +1,22 @@
+{
+    "name": "scandiweb/api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core",
+            "Domain\\": "src/Domain",
+            "Infrastructure\\": "src/Infrastructure"
+        },
+        "files": ["config/database.php"]
+    },
+    "authors": [
+        {
+            "name": "Atef Ramadan",
+            "email": "ateframadan8822@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-mysqli": "*"
+    }
+}
